@@ -7,15 +7,38 @@ font-size: 18px;
 margin: 0;
 padding: 0;
 }
+
+#cabecera
+{
+    background: darkblue;
+    box-shadow: 0px 2px 20px 0px rgba(0,0, 0, 0.5);
+    color: floralwhite;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 #container
 {
 width: 50%;
 padding: 1em;
 border-bottom: 3px solid #fafa;
 border-right: 10px solid #FFF233;
-border-left: 10px solid #33BEFF;
+border-left: 10px solid #1f87b8;
 border-top: 3px solid #FF8533;
 text-align: center;
 margin: 0 auto;
 
+}
+
+#container h1
+{
+    font-size: 20px;
 }
